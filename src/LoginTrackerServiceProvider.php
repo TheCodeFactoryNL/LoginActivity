@@ -14,7 +14,7 @@ class LoginTrackerServiceProvider extends ServiceProvider
         // Registreer de event listener voor logins
         $this->app['events']->listen(
             'Illuminate\Auth\Events\Login',
-            'TheCodeFactory\LoginTracker\Listeners\LogLoginActivity'
+            'TheCodeFactory\LoginActivity\Listeners\LogLoginActivity'
         );
     }
 

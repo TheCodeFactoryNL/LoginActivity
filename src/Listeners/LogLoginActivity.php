@@ -3,7 +3,7 @@
 namespace TheCodeFactory\LoginActivity\Listeners;
 
 use Illuminate\Auth\Events\Login;
-use TheCodeFactory\LoginTracker\Models\LoginActivity;
+use TheCodeFactory\LoginActivity\Models\LoginActivity;
 
 class LogLoginActivity
 {
