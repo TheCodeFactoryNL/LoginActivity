@@ -1,6 +1,6 @@
 <?php
 
-namespace TheCodeFactory\LoginTracker;
+namespace TheCodeFactory\LoginActivity;
 
 use Illuminate\Support\ServiceProvider;
 

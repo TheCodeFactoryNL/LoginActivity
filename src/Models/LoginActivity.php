@@ -1,6 +1,6 @@
 <?php
 
-namespace TheCodeFactory\LoginTracker\Models;
+namespace TheCodeFactory\LoginActivity\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

@@ -1,6 +1,6 @@
 <?php
 
-namespace TheCodeFactory\LoginTracker\Listeners;
+namespace TheCodeFactory\LoginActivity\Listeners;
 
 use Illuminate\Auth\Events\Login;
 use TheCodeFactory\LoginTracker\Models\LoginActivity;
