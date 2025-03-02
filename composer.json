@@ -1,0 +1,47 @@
+{
+    "name": "thecodefactory/loginactivity",
+    "description": "A Laravel package to track login activity.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "koen-schipper",
+            "email": "info@koenschipper.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.18.1",
+        "orchestra/testbench": "^9.5",
+        "pestphp/pest": "^3.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheCodeFactory\\LoginActivity\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheCodeFactory\\LoginActivity\\LoginTrackerServiceProvider"
+            ]
+        }
+    }
+}
